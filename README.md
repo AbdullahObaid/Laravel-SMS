@@ -43,7 +43,7 @@ open `config/app.php` and add the service provider and alias as below:
         'SMS'    => abdullahobaid\sms\SMS::class,
     ),
 
-###config
+### config
 Publish the configuration file by running the following Artisan command.
 
 ```php
