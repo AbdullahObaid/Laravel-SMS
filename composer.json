@@ -1,7 +1,7 @@
 {
     "name": "abdullahobaid/sms",
     "description": "A package to send SMS using mobily.ws, smsgw.net API",
-    "license": "waqf",
+    "license": "MIT",
     "type": "package",
     "version":"1.0.2",
     "keywords": ["laravel","smsgw.net","mobily.ws"],
