@@ -76,11 +76,11 @@ class SMS extends Controller
 
     public static function format_number($number)
     {
-        if (strlen($number) == 10 && starts_with($number, '05'))
+        if (strlen($number) == 10 && str_starts_with($number, '05'))
             return preg_replace('/^0/', '966', $number);
-        elseif (starts_with($number, '00'))
+        elseif (str_starts_with($number, '00'))
             return preg_replace('/^00/', '', $number);
-        elseif (starts_with($number, '+'))
+        elseif (str_starts_with($number, '+'))
             return preg_replace('/^+/', '', $number);
         return $number;
     }
