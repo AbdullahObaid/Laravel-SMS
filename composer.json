@@ -1,5 +1,5 @@
 {
-    "name": "abdullahobaid/Sms",
+    "name": "abdullahobaid/sms",
     "description": "A package to send SMS using mobily.ws, smsgw.net API",
     "license": "MIT",
     "type": "package",
